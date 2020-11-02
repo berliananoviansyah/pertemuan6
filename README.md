@@ -172,25 +172,26 @@ w,x,y,z=10,15,20,25
 print(w,x,y,z)
 ```
 
->Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah : (koma)
+>Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah : (koma)
+
  ```python
 print(w,x,y,z,sep=",")
 ```
 
->Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah
- python
+>Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah
+ ```python
 print(w,x,y,z,sep="")
+```
 
-
->Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah : (titik dua)
- python
+>Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah : (titik dua)
+ ```python
 print(w,x,y,z,sep=":")
+```
 
-
->Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah -----
- python
+>Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah -----
+ ```python
 print(w,x,y,z,sep="-----")
-
+```
 
 hasil dari syntax / source code diatas adalah seperti berikut ini : <br>
 ![Output Separator](gambar/lab1-separator.PNG)
@@ -209,7 +210,7 @@ String formatting atau pemformatan string memungkinan kita menyuntikkan item ked
 
 Penggunaan source code yang di berikan oleh dosen seperti berikut :
 ![Lab 1-2](gambar/Lab1-2.PNG)
- python
+ ```python
 #string format 1
 print(0, 10**0)
 print(1, 10**1)
@@ -234,6 +235,7 @@ print('{0:>3} {1:>16}'.format(7, 10**7))
 print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
 print('{0:>3} {1:>16}'.format(10, 10**10))
+```
 
 <br>
 Saat ini saya akan membahas satu persatu dari syntax yang telah diberikan oleh Dosen.<br>
@@ -250,18 +252,19 @@ Dengan ketentuan sebagai berikut, Operasi pangkat dengan angka kiri sebagai poko
  Dengan ketentuan sebagai berikut : <br>
  >secara Default, *.format()* menggunakan rata kiri, angka ke kanan. kita dapat menggunakan opsi opsional <,^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan *.format()* sebagai berikut :<br> 
 
-  python
+  ```python
 print('{0:8} | {1:9}'.format('buah','Jumlah'))
 print('{0:8} | {1:9}'.format('Apel',3.))
 print('{0:8} | {1:9}'.format('Jeruk',10))
+```
 
 Hasil dari source code contoh diatas akan seperti berikut :<br>
 ![Output Alignment Contoh](gambar/contoh_12.PNG)
 >Secara Default,*.format()* menggunakan rata text ke kiri, angka ke kanan, kita dapat menggunakan opsi opsional<,^,atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan *.format()* sebagai berikut : <br>
- python
+ ```python
 print('{:<30}{:30}{:>30}'.format('kiri','tengah','kanan'))
 print('{:<30}{:30}{:>30}'.format(7,20,34))
-
+```
 Hasil dari source code contoh diatas akan muncul seperti ini :<br>
 ![Output Alignment Contoh 2](gambar/contoh_123.PNG)
 <br><br>
@@ -275,12 +278,13 @@ Untuk hasil dari String Format 2 adalah :<br>
 Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas Lab 2 dari Dosen, yaitu konversi Nilai Variable<br>
 Tugas 
 ![Picture Lab 2](gambar/Lab2.PNG)
- python
+ ```python
 a=input("masukkan nilai a : ")
 b=input("masukkan nilai b : ")
 print("variable a : ",a)
 print("variable b : ",b)
 print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+```
 
 #konversi nilai variable
 a=int(a)
