@@ -16,10 +16,10 @@ DAFTAR ISI
 ## Pertemuan 5 - Tugas
 
 Pada pertemuan 5 Bahasa Pemrograman saya diberi tugas oleh Dosen untuk membuat Aplikasi Biodata Python (seperti Gambar dibawah ini)
-![tugas-5](SSPER6/tugas-p5.png)<br>
+![tugas_5](gambar/tugas-p5.PNG)<br>
 Saat ini saya akan menjeslaskan hasil dari tugas tersebut.<br>
 Berikut source code nya atau Klik Link berikut ([Tugas 5 python](tugas_pertemuan5.py)): <br>
-python
+```python
 print("******************************")
 print("= NAMA    : BERLIANA NOVIASNYAH")
 print("= NIM     : 312010373         ")
@@ -61,7 +61,7 @@ print("Nama saya adalah...")
 print(1234567)
 
 (Seperti gambar dibawah ini)<br> 
-![Output fungsi Print](SSPER6/cod-nama.PNG)
+![Output fungsi Print](gambar/cod-nama.PNG )
  * Untuk source code berikutnya adalah inputan atau membuat variable. seperti syntax dibawah ini :
  python
 fullname=input()
