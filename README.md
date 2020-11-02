@@ -60,16 +60,16 @@ Source code diatas berfungsi untuk mencetak hasil / output berupa *Please enter 
 ```python
 print("Nama saya adalah...")
 print(1234567)
-
+```
 (Seperti gambar dibawah ini)<br> 
 ![Output fungsi Print](SSPER6/cod-nama.PNG)
  * Untuk source code berikutnya adalah inputan atau membuat variable. seperti syntax dibawah ini :
- ```
+ 
 
  ```python
 fullname=input()
  ```
- 
+
 Keterangan : <br> 
 >Variable adalah sebuah wadah penyimpanan data pada program yang akan akan digunakan selama program itu berjalan. yang berfungsi sebagai variable dalam source code diatas adalah *fullname* . <br>
 >Fungsi *input()* adalah untuk memasukan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter (newline)<br> 
@@ -80,8 +80,9 @@ pada gambar di atas, hasil dari inputan tersebut berwarna hijau<br><br>
 * Untuk memasukan perintah lain seperti Nikname, NPM, Place Of Birth, Date Of Birth, Year Of Birth, Phone Number, and Addres mengikuti perintah sama seperti memasukan fullname<br>
 
 * Untuk menghitung rumus saya menggunakan variable DOB yaitu 2020 (Tahun sekarang) dikurangin dengan Year of Birt, pada source code berikut :<br>
- python
+ ```python
 dob=2020-year
+```
 
 <br> Pada syntax/source diatas, saya menggunakan variable (dob) dimana untuk menghitung umur (variable *age* pada output), yaitu dengan rumus pada variable dob=2020-year
 <br>
