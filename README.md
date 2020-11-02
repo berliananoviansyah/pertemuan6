@@ -89,17 +89,19 @@ dob=2020-year
 
 * langkah kali ini saya akan menampilkan output yang diminta oleh dosen.<br>
 output pertama yang diminta Dosen adalah menampilkan salam, yaitu dengan mengetikkan syntax/source code berikut :
-python
+```python
 print("\n\n Assalamu'alaikum. ")
-
+```
  Keterangan :
 1. Fungsi *\n* pada source code di atas adalah untuk memberi baris baru / enter / (newline)
 2. Fungsi print() seperti dijelaskan pada point *Output* diatas
 Hasil dari source code diatas adalah seperti gambar dibawah ini :<br>
 ![Output Salam](gambar/salam.PNG)
- python
+
+ ```python
 print(f"Let me introduce my self, my name is {fullname}, but you can call me {nickname}, my NPM {npm}, I was born in {pob} and iam {dob} years old, I am very glad if you want to invite my house in {address}, So don't forget to call me before with the number {phone}, \n\n Thanks you ")
- 
+ ```
+
 Keterangan : 
 1. Fungsi huruf *f* pada perintah print(f"....") adalah fungsi print atau bisa memudahkan programer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma( , ) atau plus ( + )<br>
 2. sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable<br>
@@ -113,7 +115,7 @@ Hasil dari output tersebut seperti berikut :<br>
 ## Pertemuan 6 - Lab 1
 
 Pada halaman ini (Tugas Pertemuan 6 - Lab 1) saya diberikan tugas oleh Dosen yaitu mempelajari operator aritmatika menggunakan bahasa Pemrograman pyhton. Berikut source code yang di berikan oleh dosen :
- python
+ ```python
 #penggunaan end
 print('A', end='')
 print('B', end='')
@@ -130,26 +132,29 @@ print(w, x, y, z, sep=',')
 print(w, x, y, z, sep='')
 print(w, x, y, z, sep=':')
 print(w, x, y, z, sep='.....')
+```
 
 Oke, kali ini saya akan menjelaskan tentang materi yang di berikan oleh Dosen.<br>
 
 *Penggunaan END
 Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris. secara default penggunaan end adalah untuk ganti baris.  
- python
+ ```python
 print('A', end='')
 print('B', end='')
 print('C', end='')
-
+```
 > Penggunaan print () digunakan untuk mencetak output, seperti syntax dibawah ini :
 
- python
+ ```python
 print()
+```
 
 >Syntax dibawah ini digunakan untuk menampilkan output berupa string
- python
+ ```python
 print('X')
 print('Y')
 print('z')
+```
 
 Hasil dari source code tersebut seperti gambar dibawah ini :<br>
 ![Output END](gambar/lab1_end.PNG)
@@ -157,18 +162,20 @@ Hasil dari source code tersebut seperti gambar dibawah ini :<br>
 * Penggunaan separator
 
 >Pendeklarasian beberapa variable beserta nilainya
- python
+ ```python
 w,x,y,z=10,15,20,25
-
+```
 
 >Menampilkan hasil dari variable tiap-tiap variable
- python
-print(w,x,y,z)
 
+ ```python
+print(w,x,y,z)
+```
 
 >Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah : (koma)
- python
+ ```python
 print(w,x,y,z,sep=",")
+```
 
 >Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah
  python
