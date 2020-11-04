@@ -2,8 +2,8 @@ pertemuan5
 # pertemuan6_smt1
 Repository ini di buat untuk memenuhi tugas bahasa pemrograman pertemuan ke 6 <br> <br>
 Nama  : Berliana Noviansyah<br>
-Nim   : 312010373<br>
-Kelas : TI.20 A.1<br><br>
+Nim      : 312010373<br>
+Kelas   : TI.20 A.1<br><br>
 
 DAFTAR ISI
 | No | Description | Link |
