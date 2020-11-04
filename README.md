@@ -106,7 +106,7 @@ Keterangan :
 1. Fungsi huruf *f* pada perintah print(f"....") adalah fungsi print atau bisa memudahkan programer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma( , ) atau plus ( + )<br>
 2. sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable<br>
 Hasil dari output tersebut seperti berikut :<br>
-![All output](gambar/all_output.PNG)
+![All output](SSPER6/all-output.PNG)
 
 <br>
 ---
@@ -157,7 +157,7 @@ print('z')
 ```
 
 Hasil dari source code tersebut seperti gambar dibawah ini :<br>
-![Output END](gambar/lab1_end.PNG)
+![Output END](SSPER6/print-py_end.PNG)
 
 * Penggunaan separator
 
