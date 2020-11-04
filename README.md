@@ -269,7 +269,7 @@ Hasil dari source code contoh diatas akan muncul seperti ini :<br>
 ![Output Alignment Contoh 2](SSPER6/contoh2lab1-2.PNG)
 <br><br>
 Untuk hasil dari String Format 2 adalah :<br>
-![Output String Format 2](gambar/string2.PNG)
+![Output String Format 2](SSPER6/pangkatke-2.PNG)
 
 <br><hr><br>
 
