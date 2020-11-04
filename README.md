@@ -305,14 +305,15 @@ Kita akan terfokus pada variable a dan b. <br>
 Pada line 1 tertulis syntax : a=input("masukan nilai a : ") <br>
 Sedangkan pada line 2 tertulis syntax : b=input("masukan nilai b : ") <br>
 Untuk membuat inputan berupa interger/angka harus ditambahkan syntax int() pada format input(). yang seharusnya ditulis adalah : <br>
- python
+ ```python
 a=int(input("masukkan nilai a:"))
 b=int(input("masukkan nilai b:"))
+```
   
 <br>
 Kita akan ulangi semua syntax pada file ini, maka tulis seperti ini :<br>
 
- python
+ ```python
 a=int(input("masukkan nilai a:"))
 b=int(input("masukkan nilai b:"))
 print("variable a=",a)
@@ -324,7 +325,7 @@ a=int(a)
 b=int(b)
 print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
 print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
-
+```
 Kita akan coba lagi untuk run file tersebut, maka akan muncul seperti gambar dibawah ini :<br>
  ![Fixed Error Lab 2](SSPER6/memperbaiki-error-lab2.PNG)
  <br><br>
