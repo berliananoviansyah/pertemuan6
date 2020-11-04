@@ -294,7 +294,7 @@ print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 <br>
 Setelah saya menjelaskan source code tersebut terdapat error, seperti gambar dibawah ini :<br>
 
-![Error Lab 2](SSPER6/error-lab2.PNG)<br>
+![Error Lab 2](SSPER6/lab2-error.PNG)<br>
 Nah, untuk kali ini kita akan membaca error yang telah terjadi.<br>
 > *TypeError: %d format: a  number is required, not str* <br>
 
