@@ -259,7 +259,7 @@ print('{0:8} | {1:9}'.format('Jeruk',10))
 ```
 
 Hasil dari source code contoh diatas akan seperti berikut :<br>
-![Output Alignment Contoh](gambar/contoh_12.PNG)
+![Output Alignment Contoh](SSPER6/contohlab1-2.PNG)
 >Secara Default,*.format()* menggunakan rata text ke kiri, angka ke kanan, kita dapat menggunakan opsi opsional<,^,atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan *.format()* sebagai berikut : <br>
  ```python
 print('{:<30}{:30}{:>30}'.format('kiri','tengah','kanan'))
