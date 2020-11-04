@@ -209,7 +209,7 @@ hasil dari syntax / source code diatas adalah seperti berikut ini : <br>
 String formatting atau pemformatan string memungkinan kita menyuntikkan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau string concatenation.<br>
 
 Penggunaan source code yang di berikan oleh dosen seperti berikut :
-![Lab 1-2](SSPER6/Lab1-2.PNG)
+![Lab 1-2](SSPER6/Lab1-2.png)
  ```python
 #string format 1
 print(0, 10**0)
