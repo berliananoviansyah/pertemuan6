@@ -15,3 +15,6 @@ print(w, x, y, z, sep='')
 print(w, x, y, z, sep=':')
 print(w, x, y, z, sep='.....')
 
+print('{0:8} | {1:9}'.format('objek','Jumlah'))
+print('{0:8} | {1:9}'.format('buku',3.))
+print('{0:8} | {1:9}'.format('pulpen',10))
