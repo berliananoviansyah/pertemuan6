@@ -23,6 +23,5 @@ print('{0:>3} {1:>16}'.format(8, 10**8))
 print('{0:>3} {1:>16}'.format(9, 10**9))
 print('{0:>3} {1:>16}'.format(10, 10**10))
 
-print('{0:8} | {1:9}'.format('buah','Jumlah'))
-print('{0:8} | {1:9}'.format('Apel',3.))
-print('{0:8} | {1:9}'.format('Jeruk',10))
+print('{:<30}{:30}{:>30}'.format('kiri','tengah','kanan'))
+print('{:<30}{:30}{:>30}'.format(7,20,34))
