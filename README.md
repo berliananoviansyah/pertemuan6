@@ -157,7 +157,7 @@ print('z')
 ```
 
 Hasil dari source code tersebut seperti gambar dibawah ini :<br>
-![Output END](SSPER6/print-py_end.PNG)
+![Output END](SSPER6/sslab1.PNG)
 
 * Penggunaan separator
 
